@@ -19,3 +19,10 @@
 - Rule 2: Remove Constants
 - Rule 3: Different terms for inputs
 - Rule 4: Drop non dominants
+
+## What are companies are looking for
+
+- Analitic Skills
+- Coding Skills
+- Technical Skills
+- Communication Skills
