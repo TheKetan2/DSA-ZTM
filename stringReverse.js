@@ -1,8 +1,10 @@
 const reverseString = str => {
-  return str
-    .split("")
-    .reverse()
-    .join("");
+  return typeof str === "string"
+    ? str
+        .split("")
+        .reverse()
+        .join("")
+    : "bad input format...";
 };
 
 const reverseString2 = str => {
