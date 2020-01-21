@@ -15,7 +15,9 @@ class HashTable {
     this.data[this._hash(key)] = value;
   }
   get(key) {
-    return this.data[this._hash(key)];
+    return this.data[this._hash(key)]
+      ? this.data[this._hash(key)]
+      : "Bucket is empty";
   }
 }
 
@@ -23,3 +25,5 @@ const myHashTable = new HashTable(50);
 
 myHashTable.set("Ketan", "Billionaire");
 myHashTable.get("Ketan");
+
+// My Implementaion
